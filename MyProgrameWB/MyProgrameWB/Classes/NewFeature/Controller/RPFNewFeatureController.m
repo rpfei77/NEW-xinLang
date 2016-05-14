@@ -35,9 +35,7 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    //self.collectionView.backgroundColor = [UIColor greenColor];
+
     //分页
     self.collectionView.pagingEnabled = YES;
     //垂直滚动条

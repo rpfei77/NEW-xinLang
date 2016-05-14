@@ -85,9 +85,7 @@
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    
-    
-    
+  
      [self.players pause];
 }
 
