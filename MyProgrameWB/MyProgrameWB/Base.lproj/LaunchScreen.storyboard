@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default" translatesAutoresizingMaskIntoConstraints="NO" id="1OL-F2-Tn6">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1OL-F2-Tn6" secondAttribute="bottom" id="8JC-cL-BcQ"/>
+                            <constraint firstAttribute="trailing" secondItem="1OL-F2-Tn6" secondAttribute="trailing" id="EtC-no-9yn"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1OL-F2-Tn6" secondAttribute="bottom" id="FtK-r5-eBZ"/>
+                            <constraint firstItem="1OL-F2-Tn6" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Rgl-T3-AIZ"/>
+                            <constraint firstItem="1OL-F2-Tn6" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Tut-kp-eyj"/>
+                            <constraint firstItem="1OL-F2-Tn6" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="lXC-yk-xVe"/>
+                            <constraint firstItem="1OL-F2-Tn6" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="r1G-WH-J8E"/>
+                            <constraint firstAttribute="trailing" secondItem="1OL-F2-Tn6" secondAttribute="trailing" id="tjz-uI-hZI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172.26666666666665" y="331.33333333333331"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="default" width="640" height="960"/>
+    </resources>
+</document>

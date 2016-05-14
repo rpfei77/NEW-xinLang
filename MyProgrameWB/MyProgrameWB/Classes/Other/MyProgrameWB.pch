@@ -1,0 +1,31 @@
+//
+//  MyProgrameWB.pch
+//  MyProgrameWB
+//
+//  Created by 大米 on 16/4/24.
+//  Copyright © 2016年 MyProgrameWB. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import "UIView+frame.h"
+
+#import "UIImage+image.h"
+
+#define RPFKeyWindow [UIApplication sharedApplication].keyWindow
+
+
+//...:表示宏定义的可变参数
+//__VA_ARGS__:函数的可变参数
+#ifdef DEBUG
+
+#define RPFLog(...) NSLog(__VA_ARGS__)
+
+#else//发布阶段
+
+#define RPFLog(...)
+
+
+#endif
+
+#endif
